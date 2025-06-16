@@ -7,6 +7,9 @@ class Approvia < Formula
   # When updating, you only need to change this version number...
   version "0.0.1"
 
+  url "https://github.com/approvia/homebrew-approvia/archive/refs/tags/v0.0.1.tar.gz"
+  sha256 "ca30cbd9c231ce05ad21506d56582a1f05e63d6ff66d5b8bb6d67c167a1aaa01"
+
   # The main `url` is no longer used. Instead, we define a `resource` for each file.
   # The URLs and checksums below must be updated for each new release.
   resource "prod_jar" do
