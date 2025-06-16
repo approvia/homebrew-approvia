@@ -27,8 +27,8 @@ class Approvia < Formula
   license "MIT"
 
   livecheck do
-    # This block is still correct and will check for the latest GitHub release tag
-    strategy :github_latest
+    url :stable
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
   depends_on "openjdk@17"
