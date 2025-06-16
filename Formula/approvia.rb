@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ApproviaLocalAgent < Formula
+class Approvia < Formula
   desc "Approvia Local Agent provides remote execution capabilities for Approvia web applications"
   homepage "https://approvia.dev"
 
