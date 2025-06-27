@@ -14,12 +14,12 @@ class Approvia < Formula
   # The URLs and checksums below must be updated for each new release.
   resource "prod_jar" do
     url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.2/approvia-prod.jar"
-    sha256 "2d114c9fa854c0a9a3189fd1c59137350d8806abfd28bd7dd6f7d08f1b2f8eab"
+    sha256 "3a99a29c83961b589f2a4d7a50d6ea09bfb77e04f228740fd519c60eca8300c3"
   end
 
   resource "dev_jar" do
     url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.2/approvia-dev.jar"
-    sha256 "d54db9fc6bf3408d5b33c3c2eba2db284b6b86b7a528da86b910a541518c2e3d"
+    sha256 "8f6926912fee08518fe10a62bdd5222f7e353974ab02aea21daf2e694375daf6"
   end
 
   resource "local_jar" do
