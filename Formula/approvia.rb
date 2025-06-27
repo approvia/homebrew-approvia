@@ -5,7 +5,7 @@ class Approvia < Formula
   homepage "https://approvia.dev"
 
   # When updating, you only need to change this version number...
-  version "0.0.1"
+  version "0.0.2"
 
   url "https://github.com/approvia/homebrew-approvia/archive/refs/tags/v0.0.2.tar.gz"
   sha256 "ca30cbd9c231ce05ad21506d56582a1f05e63d6ff66d5b8bb6d67c167a1aaa01"
