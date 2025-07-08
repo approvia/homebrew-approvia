@@ -5,26 +5,26 @@ class Approvia < Formula
   homepage "https://approvia.dev"
 
   # When updating, you only need to change this version number...
-  version "0.0.2"
+  version "0.0.3"
 
-  url "https://github.com/approvia/homebrew-approvia/archive/refs/tags/v0.0.2.tar.gz"
+  url "https://github.com/approvia/homebrew-approvia/archive/refs/tags/v0.0.3.tar.gz"
   sha256 "ca30cbd9c231ce05ad21506d56582a1f05e63d6ff66d5b8bb6d67c167a1aaa01"
 
   # The main `url` is no longer used. Instead, we define a `resource` for each file.
   # The URLs and checksums below must be updated for each new release.
   resource "prod_jar" do
-    url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.2/approvia-prod.jar"
-    sha256 "3a99a29c83961b589f2a4d7a50d6ea09bfb77e04f228740fd519c60eca8300c3"
+    url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.3/approvia-prod.jar"
+    sha256 "652d32a41fe965a5ea571372818c39fd4faacc5023b53713e42d79a5ad4c157e"
   end
 
   resource "dev_jar" do
-    url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.2/approvia-dev.jar"
-    sha256 "8f6926912fee08518fe10a62bdd5222f7e353974ab02aea21daf2e694375daf6"
+    url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.3/approvia-dev.jar"
+    sha256 "7907765a5c2d9b807bf8eb14ad0fa99888a04980e6e05746d3a2740661767666"
   end
 
   resource "local_jar" do
-    url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.2/approvia-local.jar"
-    sha256 "78890afe416a7a41d9bca73791f6b26088002cd0c7f673b850c43a162e735b40"
+    url "https://github.com/approvia/homebrew-approvia/releases/download/v0.0.3/approvia-local.jar"
+    sha256 "b302aa997c9787379c6197d1f332a78a90e6624a3f03ae4e56adbd6ded08c445"
   end
 
   license "MIT"
