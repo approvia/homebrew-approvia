@@ -8,7 +8,7 @@ class Approvia < Formula
   version "0.0.3"
 
   url "https://github.com/approvia/homebrew-approvia/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "ca30cbd9c231ce05ad21506d56582a1f05e63d6ff66d5b8bb6d67c167a1aaa01"
+  sha256 "110c425bd713947a6077331c57bae53568bce9d0a5d5599eab06f0e854b8eea8"
 
   # The main `url` is no longer used. Instead, we define a `resource` for each file.
   # The URLs and checksums below must be updated for each new release.
